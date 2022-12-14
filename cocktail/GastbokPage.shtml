@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>The Offical Cocktail Website</title>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF">
+<center>
+
+<font size="2" face="Footlight MT Light">
+<H3>Tack!</H3>
+...för alla fina meddelanden jag fått i gästboken. Keep up the good work!<BR><BR>
+
+<a href="http://Mercury.GuestWorld.com/wgb/wgbsign.dbm?owner=Cocktailguests">
+<img SRC="pics/SignGuestbook.jpg" border="0"></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://Mercury.GuestWorld.com/wgb/wgbview.dbm?owner=Cocktailguests">
+<img SRC="pics/ViewGuestbook.jpg" border="0"></a>
+
+
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+</body>
+</html>

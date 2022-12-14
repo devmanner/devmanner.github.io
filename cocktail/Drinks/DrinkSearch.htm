@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Drink Searcher</title>
+</head>
+
+<body bgcolor=#000000 text=#FFFFFF>
+<center>
+<IMG SRC="pics/Search.jpg"2><BR><BR>
+<FONT FACE="Footlight MT Light" SIZE="2">
+<TABLE WIDTH="70%" BORDER=0>
+<TR><TD>
+<FONT FACE="Footlight MT Light" SIZE="2">
+
+<P align="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Fyll i formuläret nedan för att söka drinkar. Du kan skriva in drinknamn, ingredienser etc. Använd "och" och "eller" för att söka efter t.ex. "citron"+"club soda".
+</P>
+</TD></TR></TABLE><BR><BR>
+
+<form method=POST action="http://cgi.algonet.se/htbin/cgiwrap/ri_da/search_ri_da.pl">
+<center><table>
+<tr>
+<th>Drink eller ingrediens att söka efter: </th>
+<th><input type=text name="terms" size=40><br></th>
+</tr><tr>
+<th>Boolean: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br></th>
+</tr><tr>
+<th colspan=2><input type=submit value="Search!"> <input type=reset><br></th>
+</tr>
+</table>
+</form>
+Detta script är hämtat från<a 
+href="http://www.worldwidemart.com/scripts/" TARGET="_top">Matt's Script Archive</a>. 
+</body></html>

@@ -1,0 +1,33 @@
+<HTML>
+
+<HEAD>
+<TITLE>The Offical Cocktail Website</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF">
+
+<CENTER>
+<TABLE BORDER=0 WIDTH="70%"><TR><TD>
+<FONT SIZE="2" FACE="Footlight MT Light">
+
+<CENTER><IMG SRC="pics/LinkMe.jpg"></CENTER>
+
+<P ALIGN="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Vill du sätta upp en länk till denna sida? För att göra mig lite gladare kan du använa HTML taggarna nedan. På så vis kan jag se hur många gäster som kommer hit från de olika länkarna runt om på webben.
+</P>
+<FONT SIZE="2" FACE="Arial">
+&lt;A HREF="http://cgi.algonet.se/htbin/cgiwrap/ri_da/BannerCnt.pl?[adressen till din egen sida]"&gt;
+<BR>&lt;IMG SRC="[den bild du vill ha som länk]" BORDER=0&gt;&lt;/A&gt;
+
+
+</TD></TR></TABLE>
+
+<FONT SIZE="2" FACE="Footlight MT Light">
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+</BODY>
+</HTML>

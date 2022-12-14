@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta NAME="Author" CONTENT="Tomas Mannerstedt">
+<meta NAME="GENERATOR" CONTENT="Texteditor">
+<title>The Official Cocktail Website</title>
+</head>
+
+<body TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#3366FF" VLINK="#3333FF" ALINK="#FF0000">
+<CENTER>
+<img SRC="pics/Cocktail.jpg"><BR><BR>
+<font size="2" face="Footlight MT Light">
+
+<TABLE BORDER=0 WIDTH="70%">
+<TR><TD>
+<CENTER>
+<font size="2" face="Footlight MT Light">
+<P align="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;Välkommen till denna underbara sida om Cocktailpartyn. Här kommer jag ta upp allt vad detta inebär; musik, drinkar kläder mm. Om du har tips eller synpunkter får du hemskt gärna <a href="mailto:tmannerstedt@hotmail.com">maila</a> dem till mig. Denna sida updateras ofta, så därför bör du besöka den ofta! Läs och begrunda; ännu vet du inte allt om cocktailvärlden.
+</P>
+<tale ><tr><td>
+<font size="2" face="Footlight MT Light">
+<P align="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;Observera att denna sida inte updateras utan endast finns kvar av något slags historiskt intresse. Jag står inte längre för allt som finns på denna sidan men låter den ändå vara kvar som ett minne från en svunnen tid och ett exempel på hur webbsidor såg ut på 90-talet. Jag har numera ett jobb och lever ett fullständigt normalt liv. Kärleken till cocktails kvarstår dock.
+</P>
+<P align ="RIGHT">
+M.v.h. / Tomas
+</P>
+</td></tr></table>
+
+<P align="CENTER">
+Nyast på denna sida: <A HREF="UtrPage.shtml">Cocktailutrustning!</A>
+</P>
+
+<H3>Skaffa nyhetsbrev!</H3>
+Skriv in ditt namn och mailadress så får du ett mail hem varje gång denna sida updateras!
+
+<form method="POST" ACTION="">
+<input type="hidden" name="recipient" value="tmannerstedt@hotmail.com">
+<input type="hidden" name="subject" value="News Signup">
+Namn: <input TYPE="text" NAME="namn" SIZE="24"><BR>
+E-mail: <input TYPE="text" NAME="mailadress" SIZE="24"><BR><BR>
+<input TYPE="submit" VALUE="Submit"><BR>
+</form>
+<BR>
+
+<img SRC="http://cgi.algonet.se/htbin/wrapcount/ri_da/counter"> gäster har minglat in sedan starten den 9/4-98.<BR><BR>
+
+<script>
+document.write("<FONT SIZE=-1><center>Denna sida updaterades senast " + document.lastModified + "<center></FONT>")
+</script>
+
+</TD></TR>
+</TABLE>
+
+<BR><BR>
+<!-- start of NedStat code --><a href="http://usa.nedstat.net/cgi-bin/viewstat?name=Cocktail"><img SRC="http://usa.nedstat.net/cgi-bin/nedstat.gif?name=Cocktail" border="0" alt="Kolla besökare" width=10 height=10></a><!-- end of NedStat code -->
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<CENTER>
+<a href="Drinks/DrinksPage.htm">[Drinkar]</a>
+<a href="UtrPage.shtml">[Utrustning]</a>
+<a href="BakisPage.shtml">[Bakfylla]</a>
+<a href="PicsPage.shtml">[Bilder]</a>
+<a href="MusicPage.shtml">[Musik]</a>
+<a href="ClothesPage.shtml">[Kläder]</a>
+<a href="LinksPage.shtml">[Länkar]</a>
+<a href="PostcardPage.shtml">[Vykort]</a>
+<a href="TavlaPage.shtml">[Tävla]</a><BR>
+<a href="MingelPage.shtml">[Mingel]</a>
+<a href="Download/index.shtml">[Filarkiv]</a>
+<a href="http://Mercury.GuestWorld.com/wgb/wgbsign.dbm?owner=Cocktailguests">[Skriv i Gästboken]</a>
+<a href="http://Mercury.GuestWorld.com/wgb/wgbview.dbm?owner=Cocktailguests">[Titta i Gästboken]</a>
+<a href="mailto:tmannerstedt@hotmail.com">[Maila Mig]</a>
+<a href="LinkMe.shtml">[Länka Mig]</a>
+
+<BR><BR>
+
+Denna sida är gjord av Tomas Mannerstedt
+</CENTER>
+
+</body>
+</html>

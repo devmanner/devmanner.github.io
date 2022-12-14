@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<title>The Offical Cocktail Website</title>
+<meta name="GENERATOR" content="Texteditor">
+<meta name="Microsoft Border" content="none">
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF">
+<CENTER>
+<font size="2" face="Footlight MT Light">
+<TABLE BORDER=0 WIDTH="70%">
+<TR><TD>
+<CENTER>
+
+<img src="pics/Tavling.jpg">
+<font size="2" face="Footlight MT Light">
+
+<P align="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Det är precic vad detta är! Just nu hör du (förhoppningsvis) en liten melodi på din dator, frågan är bara vad! (Det kan hända att du måste höja volymen lite.) För att göra det hela lite svårare spelas låten i MIDI-format. Om du vet det alldeles rätta svaret ber jag dig fylla i formuläret med en gång. Vinnaren vinner ett mycket bra pris nämligen: &quot;The Offical Cocktail Ära&quot;, samt att han/hon även får sitt namn utsatt på denna sida.
+
+<P align="JUSTIFY">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Omgångens låttitel är nog inget problem, men vem / vilka är det som komponerat denna glada 70-tals party låt.
+
+<CENTER><BR><BR><a href="TavlaResultatPage.shtml">Resultat från tidigare omgångar.</a>
+
+<BR><BR>Vad kan det vaja???
+
+<H3>Fyll i samtliga fält nedan.</H3>
+
+<form method="POST" ACTION="http://cgi.algonet.se/htbin/formmail_1.5.pl">
+<input type="hidden" name="recipient" value="tmannerstedt@hotmail.com">
+<input type="hidden" name="subject" value="Låt-Tävling 9">
+
+
+<TABLE BORDER="0">
+<TR><TD align="right" WIDTH="50%">
+Ange ditt namn:
+</TD><TD>
+<input TYPE="text" NAME="namn" SIZE="30">
+</TD></TR>
+<TR><TD align="right">
+Ange din E-mail adress:
+</TD><TD>
+<input TYPE="text" NAME="mailadr" SIZE="30">
+</TD></TR>
+<TR><TD align="right">
+Ange din röst samt en motivering:
+</TD><TD>
+<textarea NAME="Gissning:" rows="4" cols="30"></textarea>
+</TD></TR>
+<TR><TD align="right">
+<input TYPE="submit" VALUE="Klar!">
+</TD><TD>
+<input TYPE="reset" VALUE="Nollställ!">
+</TD></TR>
+</TABLE>
+
+
+</form>
+
+</TD></TR>
+</TABLE>
+
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+<EMBED SRC="soundfile.mid" height=2 width=2 autostart=true hidden=true>
+
+<NOEMBED>
+
+<bg sound="soundfile.mid">
+
+</NOEMBED>
+
+
+</body>
+</html>

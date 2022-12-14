@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta NAME="Author" CONTENT="Tomas Mannerstedt">
+<title>The Cocktail Links</title>
+</head>
+
+<body TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<CENTER>
+<font size="2" FACE="Footlight MT Light">
+<img SRC="pics/TheLinks.jpg"><BR><BR>
+
+Här är mina länkar som jag tycker kan vara värda ett besök.<BR><BR>
+
+<a HREF="http://www.systembolaget.se" TARGET="_top"><img SRC="pics/Bolaget.gif" BORDER="0"></a>
+<BR>Behöver detta motiveras???
+
+<BR><BR><a HREF="http://www.bacardi.com" TARGET="_top"><img SRC="pics/BacardiLogga.jpg" BORDER="0"></a>
+<BR>Världens mest använda rom?
+
+<BR><BR><a HREF="http://www.smirnoff.com" TARGET="_top"><img SRC="pics/Smirnoff.gif" BORDER="0"></a>
+<BR>Smirnoff's hemsida!
+
+<BR><BR><a HREF="http://www.absolutvodka.com" TARGET="_top"><img SRC="pics/AVodka.jpg" border="0"></a>
+<BR>Absolut Vodkas hemsida.
+
+<BR><BR><a HREF="http://www.ivodka.com" TARGET="_top"><img SRC="pics/iVodka.jpg" border="0"></a>
+<BR>Det finns <a HREF="http://www.imusic.com" TARGET="_top">iMusic.com</a>, <a HREF="http://www.iski.com" TARGET="_top">iSki.com</a> och <a HREF="http://www.ivodka.com" TARGET="_top">iVodka.com</a>!
+
+<BR><BR><a HREF="http://www.jackdaniels.com" TARGET="_top"><img SRC="pics/JackDaniels.jpg" border="0"></a>
+<BR>Ett riktigt original.
+
+<BR><BR><a HREF="http://www.martini.de" TARGET="_top"><img SRC="pics/Martini.jpg" border="0"></a>
+<BR>Visserligen på tyska... men ändå!
+
+<BR><BR><a HREF="http://www.spirits.ch" TARGET="_top"><img SRC="pics/WorldofSpirits.jpg" border="0"></a>
+<BR>En bra sida om alkohol. (Hur kan jag veta det förresten. Jag är ju inte 21...)
+
+<BR><BR><a href="http://www.jamtnet.se/aamail/index.htm" TARGET="_top"><img SRC="pics/AAlogo.gif" border="0"></a>
+<BR>Om det blivit för mycket...
+
+<BR><BR><a href="http://hem2.passagen.se/pegot/" TARGET="_top"><img SRC="pics/DeadPresidents.jpg" border="0"></a>
+<BR>Deras hemsida. (Tack Petter för att du länkade mig.)
+
+<BR><BR><a href="http://user.tninet.se/~jxe097q/start.htm" TARGET="_top"><img SRC="pics/foad.gif" border="0"></a>
+<BR>FOAD. Knappast hissmusik...<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+</body>
+</html>

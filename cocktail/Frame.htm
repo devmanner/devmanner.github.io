@@ -1,0 +1,181 @@
+<HTML>
+<HEAD>
+   <TITLE>The Official Cocktail Website</TITLE>
+   <META NAME="Author" CONTENT="Tomas Mannerstedt">
+   <META NAME="GENERATOR" CONTENT="Textedit">
+
+   <SCRIPT LANGUAGE="javascript">
+   if (document.images)
+     var stuff = new bulkload ("pics/Drinks_hi.gif",
+				"pics/Utr_hi.gif",
+                               "pics/Bakis_hi.gif",
+                               "pics/Pics_hi.gif",
+                               "pics/Musik_hi.gif",
+				"pics/Klader_hi.gif",
+                               "pics/Links_hi.gif",
+                               "pics/Vykort_hi.gif",
+                               "pics/Tavla_hi.gif",
+                               "pics/Mingel_hi.gif",
+				"pics/Files_hi.gif",
+                               "pics/Gastbok_hi.gif",
+                               "pics/email_hi.gif",
+				"pics/lnkme_hi.gif");
+
+   function bulkload ()
+   {
+     this.length = bulkload.arguments.length;
+     for (var i=0; i<this.length; i++)
+     {
+       this[i+1] = new Image ();
+       this[i+1].src = bulkload.arguments[i];
+     }
+   }
+
+   function select (i)
+   {
+     if (document.images)
+     {
+       var src = document.images[i].src;
+       var low = src.lastIndexOf ("low");
+       if (low != -1)
+       {
+         var newsrc = src.substring (0,low) + "hi";
+         document.images[i].src = newsrc + ".gif";
+       }
+     }
+   }
+
+   function deselect (i)
+   {
+     if (document.images)
+     {
+       var src = document.images[i].src;
+       var hi = src.lastIndexOf ("hi");
+       var clk = src.lastIndexOf ("clk");
+       if (hi != -1)
+       {
+         var newsrc = src.substring (0,hi) + "low";
+         document.images[i].src = newsrc + ".gif";
+       }
+       else
+       {
+         var newsrc = src.substring (0,clk) + "low";
+         document.images[i].src = newsrc + ".gif";
+       }
+     }
+   }
+
+   function clicked (i, adr)
+   {
+     if (document.images)
+     {
+       var src = document.images[i].src;
+       var clk = src.lastIndexOf ("hi");
+       if (clk != -1)
+       {
+         var newsrc = src.substring (0,clk) + "clk";
+         document.images[i].src = newsrc + ".gif";
+       }
+     }
+   }
+   </SCRIPT>
+
+</HEAD>
+
+<BODY BACKGROUND="pics/FrameBack.jpg" MARGINWIDTH=0 MARGINHIGHT=0>
+
+
+<P>
+
+<A HREF="CocktailMainpage.shtml" TARGET="Main"><img SRC="pics/Cocktail_mark_inv.gif" BORDER="0"></A><BR><BR>
+
+<A      HREF="Drinks/DrinksPage.htm"
+        onMouseOver="select(1);top.window.status='Drinkar!!!';return true;"
+        onMouseOut="deselect(1);top.window.status='';return true;"
+        onClick="clicked(1, 'Drinks/DrinksPage.htm');return true;"
+        TARGET=Main>
+        <img SRC="pics/Drinks_low.gif" BORDER=0></A><BR>
+
+<A      HREF="UtrPage.shtml"
+        onMouseOver="select(2);top.window.status='Kolla in Cocktailutrustning';return true;"
+        onMouseOut="deselect(2);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Utr_low.gif" BORDER=0></A><BR>
+
+<A      HREF="BakisPage.shtml"
+        onMouseOver="select(3);top.window.status='Så behandlas bakfylla';return true;"
+        onMouseOut="deselect(3);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Bakis_low.gif" BORDER=0></A><BR>
+
+<A      HREF="PicsPage.shtml"
+        onMouseOver="select(4);top.window.status='Partybilder.';return true;"
+        onMouseOut="deselect(4);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Pics_low.gif" BORDER=0></A><BR>
+
+<A      HREF="MusicPage.shtml"
+        onMouseOver="select(5);top.window.status='Musiktips för fest.';return true;"
+        onMouseOut="deselect(5);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Musik_low.gif" BORDER=0></A><BR>
+
+<A      HREF="ClothesPage.shtml"
+        onMouseOver="select(6);top.window.status='Lite information om festkläder.';return true;"
+        onMouseOut="deselect(6);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Klader_low.gif" BORDER=0></A><BR>
+
+<A      HREF="LinksPage.shtml"
+        onMouseOver="select(7);top.window.status='Länkar till andra bra sidor.';return true;"
+        onMouseOut="deselect(7);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Links_low.gif" BORDER=0></A><BR>
+
+<A      HREF="PostcardPage.shtml"
+        onMouseOver="select(8);top.window.status='Skicka vykort till dina vänner!';return true;"
+        onMouseOut="deselect(8);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Vykort_low.gif" BORDER=0></A><BR>
+
+<A      HREF="TavlaPage.shtml"
+        onMouseOver="select(9);top.window.status='En häftig musiktävling.';return true;"
+        onMouseOut="deselect(9);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Tavla_low.gif" BORDER=0></A><BR>
+
+<A      HREF="MingelPage.shtml"
+        onMouseOver="select(10);top.window.status='Läs om hur du blir en bättre minglare.';return true;"
+        onMouseOut="deselect(10);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Mingel_low.gif" BORDER=0></A><BR>
+
+<A      HREF="Download/index.shtml"
+        onMouseOver="select(11);top.window.status='Ladda ner trevliga filer.';return true;"
+        onMouseOut="deselect(11);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Files_low.gif" BORDER=0></A><BR>
+
+<A      HREF="GastbokPage.shtml"
+        onMouseOver="select(12);top.window.status='Titta eller skriv i gästboken.';return true;"
+        onMouseOut="deselect(12);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/Gastbok_low.gif" BORDER=0></A><BR>
+
+<A      HREF="mailto:tmannerstedt@hotmail.com"
+        onMouseOver="select(13);top.window.status='Skicka ett mail till mig.';return true;"
+        onMouseOut="deselect(13);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/email_low.gif" BORDER=0></A><BR>
+
+<A      HREF="LinkMe.shtml"
+        onMouseOver="select(14);top.window.status='Vill du ha en länk på din sida?';return true;"
+        onMouseOut="deselect(14);top.window.status='';return true;"
+        TARGET=Main>
+        <img SRC="pics/lnkme_low.gif" BORDER=0></A><BR>
+
+<p><embed SRC="Welcome.wav" height="0" width="0" autostart="true" hidden="true"><noembed> <bgsound="Welcome.wav"> </noembed></p>
+
+</BODY>
+</HTML>
+

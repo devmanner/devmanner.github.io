@@ -1,0 +1,25 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta NAME="Author" CONTENT="Tomas Mannerstedt">
+<title>The Cocktail Pics</title>
+</head>
+
+<body TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<center><img SRC="pics/Pics.jpg">
+
+<font size="2" FACE="Footlight MT Light">
+<H3>Välj en kategori.</H3>
+
+<a href="PicsPageFoto.shtml">
+<img SRC="pics/Fotografier.jpg" BORDER="0"></a>&nbsp;
+<a href="PicsPageCart.shtml"><img SRC="pics/Tecknat.jpg" BORDER="0"></a>
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+</body>
+</html>

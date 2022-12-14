@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META NAME="Author" CONTENT="Exoridor Multimedia Design - http://exoridor.com">
+<META NAME="Keywords" CONTENT="postcard, personal postcards, my postcards, mail, post, card, send,  greeting card, birthday, love, friendship, birthday greetings, virtual gifts, pictures, free postcards,  e-cards, gifts, virtual greetings, greeting cards, birthday, wish, friends, love, postage, delivery">  <!--CCLite comment: You may insert more keywords here and we ask you to keep ours - not authoritative! -->   <TITLE>Cocktail Postcards</TITLE>
+</HEAD>
+
+<BODY bgcolor=#000000 text=#FFFFFF link=#3366FF vlink=#3333FF>
+
+<!--CCLite comment: Card Pickup Form starts here --> 
+
+<DIV ALIGN=CENTER>
+
+<!--CCLite comment: line below is critical for cardshop performance, don't change ANYTHING there -->
+
+<font size="2" FACE="Footlight MT Light">
+
+<FORM action="http://exoridor.com/bas1/mypostcard.cgi?cocktail" METHOD="POST">
+ 
+<H3 ALIGN=CENTER>Hämta kort</H3>
+
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5>
+<TR>
+  	<TD>
+		<font size="2" FACE="Footlight MT Light">
+  		<P>
+  		<INPUT TYPE="hidden" NAME="postcard_action" VALUE="receive">
+   		Skriv in ditt nummer: 
+   		<INPUT NAME="ticket" SIZE="15">
+   		<INPUT TYPE="submit" VALUE="Tryck för att hämta!">
+  	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+</DIV>
+
+<!--CCPRO comment: Card Pickup Form ends here -->
+<!--CCLite comment: Card Composition Form starts here -->
+<HR WIDTH="100%">
+
+<DIV ALIGN=CENTER>
+
+<H3 ALIGN=CENTER>Komponera ett vykort!</H3>
+
+<!--CCLite comment: line below is critical for cardshop performance, don't change ANYTHING there -->
+
+ <FORM action="http://exoridor.com/bas1/mypostcard.cgi?cocktail" METHOD="POST">
+
+  <DIV ALIGN="CENTER">
+
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5>
+	<TR>
+		<TD COLSPAN=4> 
+			<font size="2" FACE="Footlight MT Light"><CENTER>Välj en bild nedan.
+		</TD>
+	</TR>
+
+<!--CCLite comment:  This sample table is formatted for 8 pictures. 
+You may reformat it to fit the number of pictures you need.  -->
+
+	<TR VALIGN=top>
+		<TD>
+			<IMG SRC="pics/postcard/image1.gif" ALT="Skall vi dansa?" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+		<TD>
+			<IMG SRC="pics/postcard/image2.gif" ALT="Vill du dansa nu då???" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+		<TD> 
+			<IMG SRC="pics/postcard/image3.gif" ALT="Party?" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+		<TD> 
+			<IMG SRC="pics/postcard/image4.gif" ALT="Madness" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+	</TR>
+
+<!--CCLite comment: You may replace the contents of ALT tag with something more meaningful, 
+height and width attributes can be changed any way you like. If you know what you are doing - you may change SRC attribute to reflect the names of
+existing images, if you are not sure - rename your small (thumbnail) images to image1.gif, image2.gif, etc.-->
+
+
+	<TR>
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image1.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #1
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image2.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #2
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image3.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #3
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image4.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #4
+		</TD>
+	</TR>
+
+<!--CCLite comment: do NOT alter "NAME=filename" anywhere! 
+If you know what you are doing - you may change VALUE attribute to reflect the names of
+existing images, if you are not sure - rename your images to image1.jpg, image2.jpg, etc. -->
+
+
+	<TR VALIGN=top>
+
+		<TD> 
+			<IMG SRC="pics/postcard/image5.gif" ALT="Fest... i kväll?" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+ 
+    --></TD>
+		<TD>
+			<IMG SRC="pics/postcard/image6.gif" ALT="Gubb och Gum - 98" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+		<TD> 
+			<IMG SRC="pics/postcard/image7.gif" ALT="Grattis på födelsedagen" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+		<TD> 
+			<IMG SRC="pics/postcard/image8.gif" ALT="Tack för senast" HEIGHT="100" WIDTH="100" BORDER="0"><!-- 
+    --></TD>
+
+	</TR>
+
+	<TR>
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image5.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #5
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image6.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #6
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image7.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #7
+		</TD>
+
+		<TD> 
+			<INPUT TYPE="RADIO" VALUE="image8.jpg" NAME="filename">
+			<font size="2" FACE="Footlight MT Light">Picture #8
+		</TD>
+	</TR>
+
+  </TABLE>
+
+</DIV>
+
+<BR>
+<DIV ALIGN="CENTER">
+
+  <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="5">
+	<TR>
+		<TD COLSPAN="2" ALIGN="CENTER">
+			<font size="2" FACE="Footlight MT Light"><H3>Skriv in ditt meddelande:</H3>
+            <P> 
+              <TEXTAREA NAME="text" WRAP="virtual" ROWS="9" COLS="50"></TEXTAREA>
+              <BR>
+              <font size="2" FACE="Footlight MT Light">(Du kan använda HTML-tags) 
+		</TD>
+	</TR>
+  </TABLE>
+
+</DIV>
+<DIV ALIGN="CENTER">
+
+  <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5>
+	<TR> 
+        <TD> 
+            <font size="2" FACE="Footlight MT Light"><P> Ditt namn:
+             <BR><INPUT TYPE="TEXT" SIZE=25 NAME="SENDER">
+        </TD>
+
+		<TD> 
+            <font size="2" FACE="Footlight MT Light"><P> Din e-mail adress:
+              <BR><INPUT TYPE="TEXT" SIZE=25 NAME="SENDEREMAIL">
+		</TD>
+	</TR>
+	<TR> 
+		<TD> 
+            <font size="2" FACE="Footlight MT Light"><P> Mottagarens namn:
+              <BR><INPUT TYPE="TEXT" SIZE=25 NAME="recipient">
+		</TD>
+		<TD> 
+            <font size="2" FACE="Footlight MT Light"><P>Mottagarens e-mail adress:
+              <BR><INPUT TYPE="TEXT" SIZE=25 NAME="email">
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>
+			<INPUT NAME="postcard_action" TYPE="RADIO" VALUE="preview" CHECKED>
+			<font size="2" FACE="Footlight MT Light">Förhandsgranska vykort
+		</TD>
+		<TD>
+			<P>
+			<INPUT NAME="postcard_action" TYPE="RADIO" VALUE="send">
+			<font size="2" FACE="Footlight MT Light">Skicka utan förhandsgranskning
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<INPUT TYPE="reset" VALUE="Sudda allt!"> 
+		</TD>
+		<TD>
+			<INPUT TYPE="submit" VALUE="Tryck för att fortsätta!">
+		</TD>
+	</TR>
+
+  </TABLE>
+
+</DIV>
+
+</FORM>
+
+<!--CCLite comment: Card Composition Form ends here -->
+
+
+</DIV>
+<!--CCLite comment: the link to http://mypostcards.com is mandatory, however you can reword it as you like -->
+<CENTER>
+<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+
+</BODY>
+</HTML>

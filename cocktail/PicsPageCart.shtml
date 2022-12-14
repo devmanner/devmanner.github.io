@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta NAME="Author" CONTENT="Tomas Mannerstedt">
+<title>The Cocktail Pics</title>
+</head>
+
+<body TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+<font FACE="Footlight MT Light" size="2">
+<center>
+<img SRC="pics/Pics.jpg">
+
+<H3>Här följer lite snygga bilder.</H3>
+
+<img SRC="pics/Dancing_girl.gif">
+<BR><BR>Snacka om cocktail!<BR><BR>
+
+<img SRC="pics/moloko-vellocet.gif">
+<BR><BR>Ej att rekomendera... Det finns andra <a href="Drinks/DrinksPage.htm">drinkar.</a><BR><BR>
+
+<img SRC="pics/Ska-dans.jpg">
+<BR><BR>Mr. Rudy dansar loss.<BR><BR>
+
+<img SRC="pics/calvin_dance_stay.jpg">
+<BR><BR>Behöver denna bild kommenteras.<BR><BR>
+
+<img SRC="pics/CrazyMan.jpg">
+<BR><BR>Det brukar kallas Cocktailsyndromet. (av Mattias Jansson)<BR><BR>
+
+<font size="2" face="Footlight MT Light">
+<!--#include file="Bottomlinks.htm"-->
+
+</body>
+</html>
