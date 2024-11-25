@@ -19,33 +19,73 @@ Uses:
 var expenses = [];
 var persons = [];
 
+function is_valid_person(person) {
+	return person.match("^[a-zA-Z]+$") != null;
+}
+
+function is_valid_expense(expense) {
+	return expense.match("^[a-zA-Z0-9\ ]+$") != null;
+}
+
+function is_valid_amount(amount) {
+	return amount.match("^[0-9]+$") != null;
+}
+
 function add_expense() {
     var who = document.getElementById("add_expense_form").elements['who'].value.trim();
     var amount = document.getElementById("add_expense_form").elements['amount'].value.trim();
     var what = document.getElementById("add_expense_form").elements['what'].value.trim();
 	var names = document.getElementById("add_expense_form").elements['names'].value.trim();
 
-    document.getElementById("add_expense_form").elements['who'].value = "";
-    document.getElementById("add_expense_form").elements['amount'].value = "";
-    document.getElementById("add_expense_form").elements['what'].value = "";
-	document.getElementById("add_expense_form").elements['names'].value = "";
-
-	if (names == "")
-		names = "all";
-	if (names != "all") {
-		names = names.split(/\s+/);
-		names.forEach(do_add_person);
+	var input_errors = 0;
+	if (!is_valid_person(who)) {
+		document.getElementById("add_expense_form").elements['who'].style = "color:red;";
+		input_errors++;
 	}
-	do_add_person(who);
+	if (!is_valid_expense(what)) {
+		document.getElementById("add_expense_form").elements['what'].style = "color:red;";
+		input_errors++;
+	}
+	if (!is_valid_amount(amount)) {
+		document.getElementById("add_expense_form").elements['amount'].style = "color:red;";
+		input_errors++;
+	}
+	if(names != "") {
+		names = names.split(/\s+/);
+		if (names.filter((n) => is_valid_person(n)).length != names.length) {
+			document.getElementById("add_expense_form").elements['names'].style = "color:red;";
+			input_errors++;
+		}
+	}
+	else {
+		names = "all";
+	}
 
-	expenses.push({who: who, amount: parseInt(amount), what: what, names: names});
-	
-	update_view();
+	if (input_errors == 0) {
+		document.getElementById("add_expense_form").elements['who'].value = "";
+		document.getElementById("add_expense_form").elements['amount'].value = "";
+		document.getElementById("add_expense_form").elements['what'].value = "";
+		document.getElementById("add_expense_form").elements['names'].value = "";
+
+		if (names != "all") {
+			names.forEach(do_add_person);
+		}
+		do_add_person(who);
+		expenses.push({who: who, amount: parseInt(amount), what: what, names: names});
+		update_view();
+	}
 }
 
 function add_person() {
-	do_add_person(document.getElementById("add_person_form").elements['who'].value);
-	update_view();
+	var who = document.getElementById("add_person_form").elements['who'].value;
+	if (!is_valid_person(who)) {
+		document.getElementById("add_person_form").elements['who'].style = "color:red;";
+	}
+	else {
+		document.getElementById("add_person_form").elements['who'].value = "";
+		do_add_person(who);
+		update_view();
+	}
 }
 
 function do_add_person(x) {
@@ -137,7 +177,7 @@ function update_view() {
 		if (expenses[i]["names"] == "all") 
 			x += persons.join(" ") + "\n";
 		else 
-			x += expenses[i]["names"] + "\n";
+			x += expenses[i]["names"].join(" ") + "\n";
 	}
 	document.getElementById("expenses").innerHTML = x;
 	
@@ -145,7 +185,7 @@ function update_view() {
 
 	x = "";
 	for (var key in balance) {
-		x += key + " " + balance[key] + "\n";
+		x += key + " " + balance[key].toFixed(0) + "\n";
 	}
 	document.getElementById("balance").innerHTML = x;
 
@@ -213,6 +253,26 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
      </div>
 
 </div>
+
+<script>
+	
+document.getElementById("add_expense_form").elements['who'].onclick = function() {
+	document.getElementById("add_expense_form").elements['who'].style = "color:black;";
+}
+document.getElementById("add_expense_form").elements['amount'].onclick = function() {
+	document.getElementById("add_expense_form").elements['amount'].style = "color:black;";
+}
+document.getElementById("add_expense_form").elements['what'].onclick = function() {
+	document.getElementById("add_expense_form").elements['what'].style = "color:black;";
+}
+document.getElementById("add_expense_form").elements['names'].onclick = function() {
+	document.getElementById("add_expense_form").elements['names'].style = "color:black;";
+}
+document.getElementById("add_person_form").elements['who'].onclick = function() {
+	document.getElementById("add_person_form").elements['who'].style = "color:black;";
+}
+
+</script>
 
 </body>
 </html>
